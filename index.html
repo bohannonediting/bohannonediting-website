@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bohannon editing</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+
+    <style>
+        .container {
+            padding-top: 2.5rem;
+        }
+         .card {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        body {
+            background-image: url('dust_scratches/dust_scratches/dust_scratches.png');
+            font-family: 'Vollkorn', serif;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Bohannon Editing</h3>
+                        <hr>
+                        <h4>Make Your Work Shine!</h4>
+
+                        <p class="card-text">Have you ever written a company-wide memo, social media post, or even a business letter, only to realize later that your work was riddled with mistakes? It’s an embarrassing place to be. Colleagues and clients are always looking over your shoulder!</p>
+
+                        <p class="card-text">Steve Bohannon provides editing services for authors, researchers, editors, journalists, and marketers. He provides editing services in support of book projects, blog entries, social media posts, press releases, newsletters, internal business communications, and more. Steve's decade of experience working with authors, researchers, editors, journalists, and marketing teams from all walks of life give him an edge when looking at your work. Steve provides his professional writer’s instincts, his sharp set of eyes, and his friendly and timely advice for projects big or small, one-time or long-term.
+                        </p>
+
+                        <p class="card-text">
+                            For a personalized review of your editing needs, please <a href = "mailto:steveATbohannoneditingDOTcom" 
+                            onclick = "this.href=this.href
+                                       .replace(/AT/,'&#64;')
+                                       .replace(/DOT/,'&#46;')"
+                         >contact Steve directly</a>.
+                        </p>
+
+                        <br>
+
+                        <h4>Testimonials</h4>
+                        <div class="row">
+                            <div class="col-xs-12 col-md-4">
+                                <p class="card-text">
+                                    <i>"Steve Bohannon has three characteristics that make him invaluable as an editor: He understands language and nuance; he is careful and thorough, and he is reliable and prompt. I would trust him with any editing project."</i> <br>Kathleen O’Connor, Ph.D.
+                                </p>
+                            </div>
+                            <div class="col-xs-12 col-md-4 pt-4 pt-md-0">
+                                <p class="card-text">
+                                    <i>"I was thrilled to discover Steve and his work. I've mainly relied on
+                                    Steve as a research assistant - particularly for book projects. He's
+                                    worth every penny. I've given him some really complex problems and he
+                                    has solved them all."</i> <br>Paul E. Miller, Executive Director of seeJesus
+                                    Ministry, author of A Praying Life
+                                </p>
+                            </div>
+                            <div class="col-xs-12 col-md-4 pt-4 pt-md-0">
+                                <p class="card-text">
+                                    <i>"I was thrilled to discover Steve and his work. I've mainly relied on
+                                    Steve as a research assistant - particularly for book projects. He's
+                                    worth every penny. I've given him some really complex problems and he
+                                    has solved them all."</i> <br>Paul E. Miller, Executive Director of seeJesus
+                                    Ministry, author of A Praying Life
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var parts = ["steve", "bohannonediting", "com", "&#46;", "&#64;"];
+        var email = parts[0] + parts[4] + parts[1] + parts[3] + parts[2];
+        document.getElementById("email").innerHTML=email;
+    </script>
+  </body>
+</html>
